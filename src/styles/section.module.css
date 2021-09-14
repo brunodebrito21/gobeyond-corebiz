@@ -1,0 +1,70 @@
+#container_section{
+    box-sizing: border-box;
+    width:98%;
+    height:408px;
+    margin:25px auto 68px auto;
+}
+#line{
+    margin-left:44px;
+    width:65px;
+    border-bottom:4.3px solid #e9bf33;
+}
+.text p{
+    font-weight:900;
+    margin:0px 44px;
+    font-size: 20px;
+}
+#cards_section{
+    padding:0 5px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-top:20px;
+}
+#containerCards{
+    overflow:hidden;
+    width:95%;
+    height:408px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    padding-left:10px;
+}
+#containerCards2{
+    width:1160px;
+    height:408px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+@media (max-width:1270px){
+    #containerCards{
+        overflow:hidden;
+        width:926px;
+        height:408px;
+        display:flex;
+        align-items: center;
+        justify-content:space-between;
+        padding-left:20px;
+    }
+}
+@media (max-width:1090px){
+    #containerCards{
+        overflow:hidden;
+        width:690px;
+        height:408px;
+        display:flex;
+        align-items: center;
+        justify-content:space-between;
+        padding-left:20px;
+    }
+}
+@media (max-width:794px){
+    #containerCards{
+        display:flex;
+        width:220px;
+        margin-left:20px;
+        align-items: center;
+        justify-content:space-between;
+    }
+}

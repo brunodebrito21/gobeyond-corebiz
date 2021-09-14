@@ -1,0 +1,65 @@
+.card_product{
+    text-align: center;
+    color:#7a7a7a;
+    position:relative;
+    width:216px;
+    height:353px;
+    background-color:#ffffff;
+    border-radius:5px;
+    box-shadow: -1px 5px 6px 1px lightblue;
+    margin-right:20px;
+}
+.card_product img[alt="tag de promocao"]{
+    position:absolute;
+    right:0px;
+}
+.card_product p{
+    position:absolute;
+    margin:12.25px 7.92px 0px 0px;
+    right:0px;
+    font-weight:600;
+    color:white;
+    font-size:17.28px;
+}
+
+#productName{
+    font-size:12px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#currentPrice{
+    color:black;
+    font-size: 18px;
+}
+small{
+    font-size: 11px;
+}
+#addCart_buy{
+    display: flex;
+    justify-content: center;
+}
+#addCart_buy .whatsButton {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    cursor:pointer;
+    width:125.38px;
+    height:32.42px;
+    background-color: #00e676;
+    color:white;
+    outline: none;
+    border:none;
+    border-radius:5px;
+}
+/* @media (max-width:1270px;)
+.card_product{
+    text-align: center;
+    color:#7a7a7a;
+    position:relative;
+    width:216px;
+    height:353px;
+    background-color:#ffffff;
+    border-radius:5px;
+    box-shadow: -1px 5px 6px 1px lightblue;
+    
+} */
